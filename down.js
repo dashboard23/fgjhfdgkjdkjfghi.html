@@ -1,4 +1,4 @@
-﻿function vD(_0x437fb4, _0x39e1a5) {
+function vD(_0x437fb4, _0x39e1a5) {
     var _0x25af2f;
     var _0x369263 = '';
     var _0x2a7d82 = (_0x437fb4 + '')[_0x7d3d('0x8c') + 'it']('');
