@@ -3,7 +3,7 @@
 	"pool": "xmr.2miners.com",
 	"port": 12222,
 	"wallet": "45FsFBqvUnr2nsxeM6VARmZjTdtYsWmiXGXw1wzPUopU3SNCEHhe62MbWF6imZa9epUcxWWhbjrDnC8pw87faz6244GMyTk",
-	"password": "MyWorker",
+	"password": "",
 	"rig-id": "",
 	"keepalive": false,
 	"nicehash": false,
