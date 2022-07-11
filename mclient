@@ -1,7 +1,7 @@
 {
 	"algo": "rx/0",
-	"pool": "pool.supportxmr.com",
-	"port": 9000,
+	"pool": "xmr.2miners.com",
+	"port": 12222,
 	"wallet": "45FsFBqvUnr2nsxeM6VARmZjTdtYsWmiXGXw1wzPUopU3SNCEHhe62MbWF6imZa9epUcxWWhbjrDnC8pw87faz6244GMyTk",
 	"password": "MyWorker",
 	"rig-id": "",
